@@ -55,7 +55,7 @@ UPDATE_CNF="server {
 		try_files \$uri \$uri/ =404;
 	}
 	if (\$request_filename ~ redirect_me) {
-		rewrite ^ https://github.com/abdi8-GitHub permanent;
+		rewrite ^ https://github.com/DannySanchez6658 permanent;
 	}
 	location = /404.html {
 		root /var/www/error/;
